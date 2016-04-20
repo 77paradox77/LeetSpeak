@@ -5,7 +5,7 @@ import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
 
-public class MAIN CLASS NAME {
+public class App {
 
   public static void main(String[] args) {
     staticFileLocation("/public");
@@ -22,7 +22,7 @@ public class MAIN CLASS NAME {
       model.put("template", "templates/results.vtl");
 
 
-      // YOUR "BUSINESS LOGIC" GOES HERE / 
+      // YOUR "BUSINESS LOGIC" GOES HERE /
       // String inputtedNumberAsString = request.queryParams("userNumber");
       // Integer inputtedNumber = Integer.parseInt(inputtedNumberAsString);
       //

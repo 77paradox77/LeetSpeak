@@ -1,9 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "REPOSITORY NAME"
+archivesBaseName = "leetspeak"
 version = '1.0'
-mainClassName = "MAIN CLASS"
+mainClassName = "Leetspeak"
 
 repositories {
   mavenCentral()

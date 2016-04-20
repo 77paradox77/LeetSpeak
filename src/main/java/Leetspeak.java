@@ -1,7 +1,12 @@
-IMPORT JAVA LIBERYS YOU ARE GONNA BE CALLING INSIDE YOUR MAIN CLASS;
+import java.util.HashMap;
+import java.util.ArrayList;
 
 public class Leetspeak {
 
-  public static void main(String[] args) {In here goes your UI content or not if you are gonna have into in a separated file}
+  public ArrayList<Object> runLeetspeak(String word){
+    ArrayList<Object> myWord = new ArrayList<Object>();
+    return myWord;
+  }
 
-  
+
+}
